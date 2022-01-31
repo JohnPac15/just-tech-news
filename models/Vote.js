@@ -16,7 +16,7 @@ Vote.init(
             allowaNull: false,
             reference:{
                 model:'user',
-                ket:'id'
+                key:'id'
             }
         },
         post_id: {
